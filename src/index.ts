@@ -7,7 +7,7 @@ import authRoutes from './routes/authRoutes';
 import { verifyToken } from './middleware/authMiddleware';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3003;
 
 // Middleware para fazer o parsing do corpo das requisições como JSON
 app.use(bodyParser.json());
